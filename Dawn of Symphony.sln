@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn of Symphony", "Dawn of Symphony.csproj", "{1DB867BB-C268-C1A9-522C-12DA1551CFE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn of Symphony.Editor", "Dawn of Symphony.Editor.csproj", "{0D2C3C43-5A24-2B81-BF5E-8BC6D2A9F15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB867BB-C268-C1A9-522C-12DA1551CFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB867BB-C268-C1A9-522C-12DA1551CFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB867BB-C268-C1A9-522C-12DA1551CFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB867BB-C268-C1A9-522C-12DA1551CFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2C3C43-5A24-2B81-BF5E-8BC6D2A9F15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2C3C43-5A24-2B81-BF5E-8BC6D2A9F15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2C3C43-5A24-2B81-BF5E-8BC6D2A9F15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2C3C43-5A24-2B81-BF5E-8BC6D2A9F15B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
