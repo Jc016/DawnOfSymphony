@@ -63,6 +63,9 @@ public class OvrAvatarRenderComponent : MonoBehaviour {
         // Skinned mesh renderers, then, thereafter, we can only update dirty joints
         bool forceUpdate = (firstSkinnedUpdate && 
             type == ovrAvatarRenderPartType.SkinnedMeshRender);
+
+        if (type != ovrAvatarRenderPartType.SkinnedMeshRender)
+            return;
         for (UInt32 i = 0; i < 64; i++)
         {
             UInt64 dirtyMask = (ulong)1 << (int)i;
