@@ -140,13 +140,14 @@
     <Compile Include="Assets\Scripts\DawnOfSymphony\EventManager.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\GameDataState.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalObject.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalObjetType.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalSeed.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\SeedController.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\SpawnController.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\StartGameInitilalisation.cs" />
     <Compile Include="Assets\Scripts\Utilities\Hand.cs" />
-    <Compile Include="Assets\SpawnController.cs" />
-    <Compile Include="Assets\StartGameInitilalisation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
