@@ -65,6 +65,7 @@ public class Hand : MonoBehaviour {
                     mTempJoint.connectedBody = AttachPoint;
                     mHandState = State.HOLDING;
                     SeedController seed = mHeldObject.GetComponent<SeedController>();
+                    mHeldObject.GetComponent<BoxCollider>().enabled = false;
                     GameDataState.LastSeedSpawnTaken = seed.SourceSpawnID;
                     EventManager.TriggerEvent("SeedTaken");
                 }
@@ -86,6 +87,7 @@ public class Hand : MonoBehaviour {
         mHeldObject.velocity = OVRInput.GetLocalControllerVelocity(Controller) * force;
         mHeldObject.angularVelocity = OVRInput.GetLocalControllerAngularVelocity(Controller) * Mathf.Deg2Rad;
         mHeldObject.maxAngularVelocity = mHeldObject.angularVelocity.magnitude;
+        mHeldObject.GetComponent<BoxCollider>().enabled = true;
 
     }
 
