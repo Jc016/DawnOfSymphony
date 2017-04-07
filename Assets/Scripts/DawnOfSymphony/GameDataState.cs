@@ -11,10 +11,11 @@ namespace SymphonyOfDawn
 
         public static void AddMusicalObject(string type, Vector3 position)
         {
+            Debug.Log("Spawning: " + type + " at " + position.ToString());
             MusicalObject mo = new MusicalObject();
             mo.Instanciate(type, position);
             m_musicalObjectList.Add(mo);
-            Debug.Log("Spawning: " + type + " at " + position.ToString());
+            
         }
 
   

@@ -12,7 +12,7 @@ public class MusicalObject : MonoBehaviour {
         m_gameobject = (GameObject)Instantiate((GameObject)Resources.Load(type));
         Vector3 bounds = m_gameobject.GetComponent<BoxCollider>().bounds.size;
         m_gameobject.transform.position = new Vector3(position.x, -bounds.y,position.z);
-        Debug.Log("Spawning");
+        Debug.Log("Spawning: "+ type);
 
     }
 

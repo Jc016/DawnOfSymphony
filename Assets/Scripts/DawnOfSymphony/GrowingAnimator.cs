@@ -35,8 +35,33 @@ public class GrowingAnimator : MonoBehaviour {
             yield return null;
         }
 
-        
+        HasGrown();
         yield return null;
+    }
+
+    void HasGrown()
+    {
+        Transform transformChild = transform.Find("musicalObjectChildren");
+
+        if(transformChild == null)
+        {
+            return;
+        }
+
+
+        GameObject child = transformChild.gameObject;
+
+        if (child != null)
+        {
+            Animator animator;
+            if (child.GetComponent<Animator>() != null)
+            {
+                animator = child.GetComponent<Animator>();
+                animator.SetTrigger("Grown");
+                Debug.Log("Trigger GRown");
+            }
+        }
+
     }
 
 

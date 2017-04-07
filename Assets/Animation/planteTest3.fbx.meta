@@ -487,7 +487,7 @@ ModelImporter:
     4300026: meshInt3
     7400000: Scene
     7400002: growing
-    7400004: floatingOrb
+    7400004: Grown
     9500000: //RootNode
     13700000: mesh1
     13700002: mesh2
@@ -1027,7 +1027,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: floatingOrb
+      name: Grown
       takeName: Scene
       firstFrame: 220
       lastFrame: 310
