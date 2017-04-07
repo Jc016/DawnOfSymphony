@@ -155,10 +155,10 @@
     <None Include="Assets\Oculus\OVR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\Oculus\OVR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\OVR\Shaders\Unlit Crosshair.shader" />
-    <None Include="Assets\Oculus\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
-    <None Include="Assets\Oculus\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
-    <None Include="Assets\Oculus\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
-    <None Include="Assets\Oculus\OvrAvatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\Plugins\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Plugins\LitParticles\LitParticle.shader" />
     <None Include="Assets\Plugins\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
