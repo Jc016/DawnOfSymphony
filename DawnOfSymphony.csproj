@@ -147,6 +147,7 @@
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalObject.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalObjetType.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalSeed.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\ObjectRandomRotation.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\ObjectRandomScaler.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\SeedController.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\SpawnController.cs" />
