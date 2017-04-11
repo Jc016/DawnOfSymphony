@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SymphonyOfDawn;
 
 
 public class CrashingMoonController : MonoBehaviour {
@@ -13,6 +14,11 @@ public class CrashingMoonController : MonoBehaviour {
     private void OnDisable()
     {
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        EventManager.TriggerEvent("MoonCrashed");
     }
 
     private void Update()

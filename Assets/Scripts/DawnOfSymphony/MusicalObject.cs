@@ -16,6 +16,10 @@ public class MusicalObject : MonoBehaviour {
 
     }
 
- 
+    public void Destroy()
+    {
+        Destroy(m_gameobject);
+    }
+
 
 }

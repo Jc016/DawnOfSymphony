@@ -18,6 +18,15 @@ namespace SymphonyOfDawn
             
         }
 
+        public static void DeleteAllMusicalObjects()
+        {
+            for(int i = m_musicalObjectList.Count - 1; i >= 0; i--)
+            {
+                m_musicalObjectList[i].Destroy();
+                m_musicalObjectList.RemoveAt(i);
+            }
+        }
+
   
     }
 
