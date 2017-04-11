@@ -6,4 +6,6 @@ public class SeedController : MonoBehaviour {
 
     public string Type;
     public int SourceSpawnID;
+    public bool untouched= true;
+
 }

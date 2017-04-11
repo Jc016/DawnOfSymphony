@@ -67,7 +67,12 @@ public class Hand : MonoBehaviour {
                     SeedController seed = mHeldObject.GetComponent<SeedController>();
                     mHeldObject.GetComponent<BoxCollider>().enabled = false;
                     GameDataState.LastSeedSpawnTaken = seed.SourceSpawnID;
-                    EventManager.TriggerEvent("SeedTaken");
+                    if (seed.untouched)
+                    {
+                        EventManager.TriggerEvent("SeedTaken");
+                        seed.untouched = false;
+                    }
+                    
                 }
                 break;
             case State.HOLDING:

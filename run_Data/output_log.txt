@@ -1,33 +1,1006 @@
-Initialize engine version: 5.5.0f3 (38b4efef76f0)
+Mono path[0] = 'C:/git/DawnOfSymphony/run_Data/Managed'
+Mono path[1] = 'C:/git/DawnOfSymphony/run_Data/Mono'
+Mono config path = 'C:/git/DawnOfSymphony/run_Data/Mono/etc'
+PlayerConnection initialized from C:/git/DawnOfSymphony/run_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55180
+Multi-casting "[IP] 132.208.104.68 [Port] 55180 [Flags] 2 [Guid] 1833721588 [EditorId] 1261646400 [Version] 1048832 [Id] WindowsPlayer(BOYSCOUT2) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55180]
+PlayerConnection already initialized - listening to [0.0.0.0:55180]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
     VRAM:     3072 MB
-    Driver:   20.19.15.4549
+    Driver:   21.21.13.7653
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.VR.dll (this message is harmless)
-Loading D:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.150 seconds
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\git\DawnOfSymphony\run_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 4320x1446 at 0,-96
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\git\DawnOfSymphony\run_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.140 seconds
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\git\DawnOfSymphony\run_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.065464 ms
+Unity v5.5.2f1, Oculus Utilities v1.12.0, OVRPlugin v1.11.0, SDK v1.13.0.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+OVRManager:Awake() (at C:\git\DawnOfSymphony\Assets\Oculus\OVR\Scripts\OVRManager.cs:535)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Oculus/OVR/Scripts/OVRManager.cs Line: 535)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5b8 -> priority: 1 
+  Thread -> id: 1530 -> priority: 1 
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-9.4, 0.2, -1.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(5.8, 205.1, 7.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-7.6, 0.2, 2.8)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(1.9, 156.0, 2.5)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-11.1, 0.3, 2.7)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(359.7, 332.3, 8.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-12.7, 0.3, 1.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(8.2, 147.1, 6.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-13.5, 0.2, -4.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(11.4, 309.3, 359.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-16.0, 0.2, -0.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(353.3, 161.0, 8.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-13.2, 0.2, -1.6)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(356.5, 327.1, 355.4)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-9.5, 0.3, 5.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(358.7, 64.0, 356.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-13.2, 0.3, 5.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(8.4, 57.7, 5.4)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-14.7, 0.2, -3.5)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(359.6, 233.0, 0.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-11.5, 0.3, -7.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(353.9, 308.9, 359.6)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-11.1, 0.2, -5.7)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(357.8, 52.1, 357.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-8.7, 0.2, -8.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(355.3, 33.7, 347.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-8.1, 0.3, -8.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(3.0, 325.0, 354.7)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-4.6, 0.2, -7.4)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(354.1, 313.2, 355.4)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-10.9, 0.2, -13.0)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(1.6, 163.0, 356.7)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-13.0, 0.2, 9.2)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(3.6, 67.0, 0.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (3.2, 0.2, 15.5)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(355.4, 258.9, 11.5)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
+hitt
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:20)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/FieldSeedContact.cs Line: 20)
+
+Spawning: Flower at (-15.3, 0.2, -7.1)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:14)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GameDataState.cs Line: 14)
+
+Spawning: Flower
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MusicalObject:Instanciate(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\MusicalObject.cs:15)
+SymphonyOfDawn.GameDataState:AddMusicalObject(String, Vector3) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GameDataState.cs:16)
+FieldSeedContact:OnCollisionEnter(Collision) (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\FieldSeedContact.cs:25)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/MusicalObject.cs Line: 15)
+
+(4.6, 32.0, 8.9)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:Start() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:18)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 18)
+
+Trigger GRown
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GrowingAnimator:HasGrown() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:61)
+<Growing>c__Iterator0:MoveNext() (at C:\git\DawnOfSymphony\Assets\Scripts\DawnOfSymphony\GrowingAnimator.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/git/DawnOfSymphony/Assets/Scripts/DawnOfSymphony/GrowingAnimator.cs Line: 61)
+
