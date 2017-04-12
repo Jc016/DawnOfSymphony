@@ -8,6 +8,17 @@ namespace SymphonyOfDawn
     {
         private static List  <MusicalObject> m_musicalObjectList  = new List<MusicalObject>();
         public static int LastSeedSpawnTaken { get; set; }
+        public static ScannerEffectDemo scannerEffect;
+
+        public static void Init()
+        {
+            scannerEffect = (Object.FindObjectsOfType(typeof(ScannerEffectDemo)) as ScannerEffectDemo[])[0];
+        }
+        
+        public static void AddScannableObject(GameObject go)
+        {
+            scannerEffect.AddScannable(go.GetComponent<Scannable>());
+        }
 
         public static void AddMusicalObject(string type, Vector3 position)
         {
@@ -15,7 +26,9 @@ namespace SymphonyOfDawn
             MusicalObject mo = new MusicalObject();
             mo.Instanciate(type, position);
             m_musicalObjectList.Add(mo);
-            
+            scannerEffect.AddScannable(mo.linkedGameObject.GetComponent<Scannable>());
+
+
         }
 
         public static void DeleteAllMusicalObjects()
@@ -25,6 +38,8 @@ namespace SymphonyOfDawn
                 m_musicalObjectList[i].Destroy();
                 m_musicalObjectList.RemoveAt(i);
             }
+
+            scannerEffect.ClearScannables();
         }
 
   

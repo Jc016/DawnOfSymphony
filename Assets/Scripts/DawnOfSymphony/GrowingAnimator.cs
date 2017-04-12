@@ -7,6 +7,7 @@ public class GrowingAnimator : MonoBehaviour {
     public float GrowingSpeed = 0.2f;
     public float pourcentileUnderGround = 0.2f;
     public float rangeAngle = -45f;
+    public bool isGrown = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,6 @@ public class GrowingAnimator : MonoBehaviour {
         transform.RotateAround(pivot, Vector3.forward, Random.Range(-rangeAngle, rangeAngle));
         transform.RotateAround(pivot, Vector3.left, Random.Range(-rangeAngle, rangeAngle));
         StartCoroutine(Growing());
-        Debug.Log(transform.rotation.eulerAngles);
 
 
 
@@ -42,8 +42,9 @@ public class GrowingAnimator : MonoBehaviour {
     void HasGrown()
     {
         Transform transformChild = transform.Find("musicalObjectChildren");
+        isGrown = true;
 
-        if(transformChild == null)
+        if (transformChild == null)
         {
             return;
         }
@@ -58,7 +59,6 @@ public class GrowingAnimator : MonoBehaviour {
             {
                 animator = child.GetComponent<Animator>();
                 animator.SetTrigger("Grown");
-                Debug.Log("Trigger GRown");
             }
         }
 

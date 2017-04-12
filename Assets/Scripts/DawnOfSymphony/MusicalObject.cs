@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MusicalObject : MonoBehaviour {
 
-    public GameObject m_gameobject;
+    private GameObject m_gameobject;
+    public GameObject linkedGameObject { get { return m_gameobject; } }
     
     public void Instanciate(string type,Vector3 position)
     {
@@ -20,6 +21,8 @@ public class MusicalObject : MonoBehaviour {
     {
         Destroy(m_gameobject);
     }
+
+
 
 
 }

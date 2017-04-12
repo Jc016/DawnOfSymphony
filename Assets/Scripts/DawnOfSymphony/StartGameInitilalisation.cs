@@ -9,10 +9,12 @@ public class StartGameInitilalisation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        RenderSettings.skybox.SetColor("_Tint", new Color(56.0f / 255.0f, 32.0f / 255.0f, 14.0f / 255f, 128.0f / 255.0f));
-        ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
-        emitParams.startColor = Color.magenta;
-        clouds.Emit(emitParams, 10);
+        /*  RenderSettings.skybox.SetColor("_Tint", new Color(56.0f / 255.0f, 32.0f / 255.0f, 14.0f / 255f, 128.0f / 255.0f));
+          ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
+          emitParams.startColor = Color.magenta;
+          clouds.Emit(emitParams, 10);*/
+
+        GameDataState.Init();
         for (int i = 0; i < 4; i++)
         {
             GameDataState.LastSeedSpawnTaken = i;
