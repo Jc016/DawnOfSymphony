@@ -28,6 +28,11 @@ namespace SymphonyOfDawn
             m_musicalObjectList.Add(mo);
             scannerEffect.AddScannable(mo.linkedGameObject.GetComponent<Scannable>());
 
+            if(m_musicalObjectList.Count >=8)
+            {
+                EventManager.TriggerEvent("StartCrash");
+            }
+
 
         }
 

@@ -1,0 +1,1243 @@
+fileFormatVersion: 2
+guid: 440ccec64bf1aab4ab336e6e2e3712c9
+timeCreated: 1492203642
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cone.000
+    100002: Cone.001
+    100004: Cone.002
+    100006: Cone.003
+    100008: Cone.004
+    100010: Cone.005
+    100012: Cone.006
+    100014: Cone.007
+    100016: Cone.008
+    100018: Cone.009
+    100020: Cone.010
+    100022: Cone.011
+    100024: Cone.012
+    100026: Cone.013
+    100028: Cone.014
+    100030: Cone.015
+    100032: Cone.016
+    100034: Cone.017
+    100036: Cone.018
+    100038: Cone.019
+    100040: Cone.020
+    100042: Cone.021
+    100044: Cone.022
+    100046: Cone.023
+    100048: Cone.024
+    100050: Cone.025
+    100052: Cone.026
+    100054: Cone.027
+    100056: Cone.028
+    100058: Cone.029
+    100060: Cone.030
+    100062: Cone.031
+    100064: Cone.032
+    100066: Cone.033
+    100068: Cone.034
+    100070: Cone.035
+    100072: Cone.036
+    100074: Cone.037
+    100076: Cone.038
+    100078: Cone.039
+    100080: Cone.040
+    100082: Cone.041
+    100084: Cone.042
+    100086: Cone.043
+    100088: Cone.044
+    100090: Cone.045
+    100092: Cone.046
+    100094: Cone.047
+    100096: Cone.048
+    100098: Cone.049
+    100100: Cone.050
+    100102: Cone.051
+    100104: Cone.052
+    100106: Cone.053
+    100108: Cone.054
+    100110: Cone.055
+    100112: Cone.056
+    100114: Cone.057
+    100116: Cone.058
+    100118: Cone.059
+    100120: Cone.060
+    100122: Cone.061
+    100124: Cone.062
+    100126: Cone.063
+    100128: Cone.064
+    100130: Cone.065
+    100132: Cone.066
+    100134: Cone.067
+    100136: Cone.068
+    100138: Cone.069
+    100140: Cone.070
+    100142: Cone.071
+    100144: Cone.072
+    100146: Cone.073
+    100148: Cone.074
+    100150: Cone.075
+    100152: Cone.076
+    100154: Cone.077
+    100156: Cone.078
+    100158: Cone.079
+    100160: Cone.080
+    100162: Cone.081
+    100164: Cone.082
+    100166: Cone.083
+    100168: Cone.084
+    100170: Cone.085
+    100172: Cone.086
+    100174: Cone.087
+    100176: Cone.088
+    100178: Cone.089
+    100180: Cone.090
+    100182: Cone.091
+    100184: Cone.092
+    100186: Cone.093
+    100188: Cone.094
+    100190: Cone.095
+    100192: Cone.096
+    100194: Cone.097
+    100196: Cone.098
+    100198: Cone.099
+    100200: Cone.100
+    100202: Cone.101
+    100204: Cone.102
+    100206: Cone.103
+    100208: Cone.104
+    100210: Cone.105
+    100212: Cone.106
+    100214: Cone.107
+    100216: Cone.108
+    100218: Cone.109
+    100220: Cone.110
+    100222: Cone.111
+    100224: Cone.112
+    100226: Cone.113
+    100228: Cone.114
+    100230: Cone.115
+    100232: Cone.116
+    100234: Cone.117
+    100236: Cone.118
+    100238: Cone.119
+    100240: Cone.120
+    100242: Cone.121
+    100244: Cone.122
+    100246: Cone.123
+    100248: Cone.124
+    100250: Cone.125
+    100252: Cone.126
+    100254: Cone.127
+    100256: Cone.128
+    100258: Cone.129
+    100260: Cone.130
+    100262: Cone.131
+    100264: Cone.132
+    100266: Cone.133
+    100268: Cone.134
+    100270: Cone.135
+    100272: Cone.136
+    100274: Cone.137
+    100276: Cone.138
+    100278: Cone.140
+    100280: Cone.141
+    100282: Cone.142
+    100284: Cone.143
+    100286: Cone.144
+    100288: Cone.145
+    100290: Cone.146
+    100292: Cone.147
+    100294: Cone.148
+    100296: Cone.149
+    100298: Cone.150
+    100300: Cone.151
+    100302: Cone.152
+    100304: Cone.153
+    100306: Cone.154
+    100308: Cone.155
+    100310: Cone.156
+    100312: Cone.157
+    100314: Cone.158
+    100316: Cone.159
+    100318: Cone.160
+    100320: Cone.161
+    100322: sphereBase
+    100324: //RootNode
+    400000: Cone.000
+    400002: Cone.001
+    400004: Cone.002
+    400006: Cone.003
+    400008: Cone.004
+    400010: Cone.005
+    400012: Cone.006
+    400014: Cone.007
+    400016: Cone.008
+    400018: Cone.009
+    400020: Cone.010
+    400022: Cone.011
+    400024: Cone.012
+    400026: Cone.013
+    400028: Cone.014
+    400030: Cone.015
+    400032: Cone.016
+    400034: Cone.017
+    400036: Cone.018
+    400038: Cone.019
+    400040: Cone.020
+    400042: Cone.021
+    400044: Cone.022
+    400046: Cone.023
+    400048: Cone.024
+    400050: Cone.025
+    400052: Cone.026
+    400054: Cone.027
+    400056: Cone.028
+    400058: Cone.029
+    400060: Cone.030
+    400062: Cone.031
+    400064: Cone.032
+    400066: Cone.033
+    400068: Cone.034
+    400070: Cone.035
+    400072: Cone.036
+    400074: Cone.037
+    400076: Cone.038
+    400078: Cone.039
+    400080: Cone.040
+    400082: Cone.041
+    400084: Cone.042
+    400086: Cone.043
+    400088: Cone.044
+    400090: Cone.045
+    400092: Cone.046
+    400094: Cone.047
+    400096: Cone.048
+    400098: Cone.049
+    400100: Cone.050
+    400102: Cone.051
+    400104: Cone.052
+    400106: Cone.053
+    400108: Cone.054
+    400110: Cone.055
+    400112: Cone.056
+    400114: Cone.057
+    400116: Cone.058
+    400118: Cone.059
+    400120: Cone.060
+    400122: Cone.061
+    400124: Cone.062
+    400126: Cone.063
+    400128: Cone.064
+    400130: Cone.065
+    400132: Cone.066
+    400134: Cone.067
+    400136: Cone.068
+    400138: Cone.069
+    400140: Cone.070
+    400142: Cone.071
+    400144: Cone.072
+    400146: Cone.073
+    400148: Cone.074
+    400150: Cone.075
+    400152: Cone.076
+    400154: Cone.077
+    400156: Cone.078
+    400158: Cone.079
+    400160: Cone.080
+    400162: Cone.081
+    400164: Cone.082
+    400166: Cone.083
+    400168: Cone.084
+    400170: Cone.085
+    400172: Cone.086
+    400174: Cone.087
+    400176: Cone.088
+    400178: Cone.089
+    400180: Cone.090
+    400182: Cone.091
+    400184: Cone.092
+    400186: Cone.093
+    400188: Cone.094
+    400190: Cone.095
+    400192: Cone.096
+    400194: Cone.097
+    400196: Cone.098
+    400198: Cone.099
+    400200: Cone.100
+    400202: Cone.101
+    400204: Cone.102
+    400206: Cone.103
+    400208: Cone.104
+    400210: Cone.105
+    400212: Cone.106
+    400214: Cone.107
+    400216: Cone.108
+    400218: Cone.109
+    400220: Cone.110
+    400222: Cone.111
+    400224: Cone.112
+    400226: Cone.113
+    400228: Cone.114
+    400230: Cone.115
+    400232: Cone.116
+    400234: Cone.117
+    400236: Cone.118
+    400238: Cone.119
+    400240: Cone.120
+    400242: Cone.121
+    400244: Cone.122
+    400246: Cone.123
+    400248: Cone.124
+    400250: Cone.125
+    400252: Cone.126
+    400254: Cone.127
+    400256: Cone.128
+    400258: Cone.129
+    400260: Cone.130
+    400262: Cone.131
+    400264: Cone.132
+    400266: Cone.133
+    400268: Cone.134
+    400270: Cone.135
+    400272: Cone.136
+    400274: Cone.137
+    400276: Cone.138
+    400278: Cone.140
+    400280: Cone.141
+    400282: Cone.142
+    400284: Cone.143
+    400286: Cone.144
+    400288: Cone.145
+    400290: Cone.146
+    400292: Cone.147
+    400294: Cone.148
+    400296: Cone.149
+    400298: Cone.150
+    400300: Cone.151
+    400302: Cone.152
+    400304: Cone.153
+    400306: Cone.154
+    400308: Cone.155
+    400310: Cone.156
+    400312: Cone.157
+    400314: Cone.158
+    400316: Cone.159
+    400318: Cone.160
+    400320: Cone.161
+    400322: sphereBase
+    400324: //RootNode
+    2300000: Cone.000
+    2300002: Cone.001
+    2300004: Cone.002
+    2300006: Cone.003
+    2300008: Cone.004
+    2300010: Cone.005
+    2300012: Cone.006
+    2300014: Cone.007
+    2300016: Cone.008
+    2300018: Cone.009
+    2300020: Cone.010
+    2300022: Cone.011
+    2300024: Cone.012
+    2300026: Cone.013
+    2300028: Cone.014
+    2300030: Cone.015
+    2300032: Cone.016
+    2300034: Cone.017
+    2300036: Cone.018
+    2300038: Cone.019
+    2300040: Cone.020
+    2300042: Cone.021
+    2300044: Cone.022
+    2300046: Cone.023
+    2300048: Cone.024
+    2300050: Cone.025
+    2300052: Cone.026
+    2300054: Cone.027
+    2300056: Cone.028
+    2300058: Cone.029
+    2300060: Cone.030
+    2300062: Cone.031
+    2300064: Cone.032
+    2300066: Cone.033
+    2300068: Cone.034
+    2300070: Cone.035
+    2300072: Cone.036
+    2300074: Cone.037
+    2300076: Cone.038
+    2300078: Cone.039
+    2300080: Cone.040
+    2300082: Cone.041
+    2300084: Cone.042
+    2300086: Cone.043
+    2300088: Cone.044
+    2300090: Cone.045
+    2300092: Cone.046
+    2300094: Cone.047
+    2300096: Cone.048
+    2300098: Cone.049
+    2300100: Cone.050
+    2300102: Cone.051
+    2300104: Cone.052
+    2300106: Cone.053
+    2300108: Cone.054
+    2300110: Cone.055
+    2300112: Cone.056
+    2300114: Cone.057
+    2300116: Cone.058
+    2300118: Cone.059
+    2300120: Cone.060
+    2300122: Cone.061
+    2300124: Cone.062
+    2300126: Cone.063
+    2300128: Cone.064
+    2300130: Cone.065
+    2300132: Cone.066
+    2300134: Cone.067
+    2300136: Cone.068
+    2300138: Cone.069
+    2300140: Cone.070
+    2300142: Cone.071
+    2300144: Cone.072
+    2300146: Cone.073
+    2300148: Cone.074
+    2300150: Cone.075
+    2300152: Cone.076
+    2300154: Cone.077
+    2300156: Cone.078
+    2300158: Cone.079
+    2300160: Cone.080
+    2300162: Cone.081
+    2300164: Cone.082
+    2300166: Cone.083
+    2300168: Cone.084
+    2300170: Cone.085
+    2300172: Cone.086
+    2300174: Cone.087
+    2300176: Cone.088
+    2300178: Cone.089
+    2300180: Cone.090
+    2300182: Cone.091
+    2300184: Cone.092
+    2300186: Cone.093
+    2300188: Cone.094
+    2300190: Cone.095
+    2300192: Cone.096
+    2300194: Cone.097
+    2300196: Cone.098
+    2300198: Cone.099
+    2300200: Cone.100
+    2300202: Cone.101
+    2300204: Cone.102
+    2300206: Cone.103
+    2300208: Cone.104
+    2300210: Cone.105
+    2300212: Cone.106
+    2300214: Cone.107
+    2300216: Cone.108
+    2300218: Cone.109
+    2300220: Cone.110
+    2300222: Cone.111
+    2300224: Cone.112
+    2300226: Cone.113
+    2300228: Cone.114
+    2300230: Cone.115
+    2300232: Cone.116
+    2300234: Cone.117
+    2300236: Cone.118
+    2300238: Cone.119
+    2300240: Cone.120
+    2300242: Cone.121
+    2300244: Cone.122
+    2300246: Cone.123
+    2300248: Cone.124
+    2300250: Cone.125
+    2300252: Cone.126
+    2300254: Cone.127
+    2300256: Cone.128
+    2300258: Cone.129
+    2300260: Cone.130
+    2300262: Cone.131
+    2300264: Cone.132
+    2300266: Cone.133
+    2300268: Cone.134
+    2300270: Cone.135
+    2300272: Cone.136
+    2300274: Cone.137
+    2300276: Cone.138
+    2300278: Cone.140
+    2300280: Cone.141
+    2300282: Cone.142
+    2300284: Cone.143
+    2300286: Cone.144
+    2300288: Cone.145
+    2300290: Cone.146
+    2300292: Cone.147
+    2300294: Cone.148
+    2300296: Cone.149
+    2300298: Cone.150
+    2300300: Cone.151
+    2300302: Cone.152
+    2300304: Cone.153
+    2300306: Cone.154
+    2300308: Cone.155
+    2300310: Cone.156
+    2300312: Cone.157
+    2300314: Cone.158
+    2300316: Cone.159
+    2300318: Cone.160
+    2300320: Cone.161
+    2300322: sphereBase
+    3300000: Cone.000
+    3300002: Cone.001
+    3300004: Cone.002
+    3300006: Cone.003
+    3300008: Cone.004
+    3300010: Cone.005
+    3300012: Cone.006
+    3300014: Cone.007
+    3300016: Cone.008
+    3300018: Cone.009
+    3300020: Cone.010
+    3300022: Cone.011
+    3300024: Cone.012
+    3300026: Cone.013
+    3300028: Cone.014
+    3300030: Cone.015
+    3300032: Cone.016
+    3300034: Cone.017
+    3300036: Cone.018
+    3300038: Cone.019
+    3300040: Cone.020
+    3300042: Cone.021
+    3300044: Cone.022
+    3300046: Cone.023
+    3300048: Cone.024
+    3300050: Cone.025
+    3300052: Cone.026
+    3300054: Cone.027
+    3300056: Cone.028
+    3300058: Cone.029
+    3300060: Cone.030
+    3300062: Cone.031
+    3300064: Cone.032
+    3300066: Cone.033
+    3300068: Cone.034
+    3300070: Cone.035
+    3300072: Cone.036
+    3300074: Cone.037
+    3300076: Cone.038
+    3300078: Cone.039
+    3300080: Cone.040
+    3300082: Cone.041
+    3300084: Cone.042
+    3300086: Cone.043
+    3300088: Cone.044
+    3300090: Cone.045
+    3300092: Cone.046
+    3300094: Cone.047
+    3300096: Cone.048
+    3300098: Cone.049
+    3300100: Cone.050
+    3300102: Cone.051
+    3300104: Cone.052
+    3300106: Cone.053
+    3300108: Cone.054
+    3300110: Cone.055
+    3300112: Cone.056
+    3300114: Cone.057
+    3300116: Cone.058
+    3300118: Cone.059
+    3300120: Cone.060
+    3300122: Cone.061
+    3300124: Cone.062
+    3300126: Cone.063
+    3300128: Cone.064
+    3300130: Cone.065
+    3300132: Cone.066
+    3300134: Cone.067
+    3300136: Cone.068
+    3300138: Cone.069
+    3300140: Cone.070
+    3300142: Cone.071
+    3300144: Cone.072
+    3300146: Cone.073
+    3300148: Cone.074
+    3300150: Cone.075
+    3300152: Cone.076
+    3300154: Cone.077
+    3300156: Cone.078
+    3300158: Cone.079
+    3300160: Cone.080
+    3300162: Cone.081
+    3300164: Cone.082
+    3300166: Cone.083
+    3300168: Cone.084
+    3300170: Cone.085
+    3300172: Cone.086
+    3300174: Cone.087
+    3300176: Cone.088
+    3300178: Cone.089
+    3300180: Cone.090
+    3300182: Cone.091
+    3300184: Cone.092
+    3300186: Cone.093
+    3300188: Cone.094
+    3300190: Cone.095
+    3300192: Cone.096
+    3300194: Cone.097
+    3300196: Cone.098
+    3300198: Cone.099
+    3300200: Cone.100
+    3300202: Cone.101
+    3300204: Cone.102
+    3300206: Cone.103
+    3300208: Cone.104
+    3300210: Cone.105
+    3300212: Cone.106
+    3300214: Cone.107
+    3300216: Cone.108
+    3300218: Cone.109
+    3300220: Cone.110
+    3300222: Cone.111
+    3300224: Cone.112
+    3300226: Cone.113
+    3300228: Cone.114
+    3300230: Cone.115
+    3300232: Cone.116
+    3300234: Cone.117
+    3300236: Cone.118
+    3300238: Cone.119
+    3300240: Cone.120
+    3300242: Cone.121
+    3300244: Cone.122
+    3300246: Cone.123
+    3300248: Cone.124
+    3300250: Cone.125
+    3300252: Cone.126
+    3300254: Cone.127
+    3300256: Cone.128
+    3300258: Cone.129
+    3300260: Cone.130
+    3300262: Cone.131
+    3300264: Cone.132
+    3300266: Cone.133
+    3300268: Cone.134
+    3300270: Cone.135
+    3300272: Cone.136
+    3300274: Cone.137
+    3300276: Cone.138
+    3300278: Cone.140
+    3300280: Cone.141
+    3300282: Cone.142
+    3300284: Cone.143
+    3300286: Cone.144
+    3300288: Cone.145
+    3300290: Cone.146
+    3300292: Cone.147
+    3300294: Cone.148
+    3300296: Cone.149
+    3300298: Cone.150
+    3300300: Cone.151
+    3300302: Cone.152
+    3300304: Cone.153
+    3300306: Cone.154
+    3300308: Cone.155
+    3300310: Cone.156
+    3300312: Cone.157
+    3300314: Cone.158
+    3300316: Cone.159
+    3300318: Cone.160
+    3300320: Cone.161
+    3300322: sphereBase
+    4300000: sphereBase
+    4300002: Cone.001
+    4300004: Cone.000
+    4300006: Cone.002
+    4300008: Cone.003
+    4300010: Cone.004
+    4300012: Cone.005
+    4300014: Cone.006
+    4300016: Cone.007
+    4300018: Cone.008
+    4300020: Cone.009
+    4300022: Cone.010
+    4300024: Cone.011
+    4300026: Cone.012
+    4300028: Cone.013
+    4300030: Cone.014
+    4300032: Cone.015
+    4300034: Cone.016
+    4300036: Cone.017
+    4300038: Cone.018
+    4300040: Cone.019
+    4300042: Cone.020
+    4300044: Cone.021
+    4300046: Cone.022
+    4300048: Cone.023
+    4300050: Cone.024
+    4300052: Cone.025
+    4300054: Cone.026
+    4300056: Cone.027
+    4300058: Cone.028
+    4300060: Cone.029
+    4300062: Cone.030
+    4300064: Cone.031
+    4300066: Cone.032
+    4300068: Cone.033
+    4300070: Cone.034
+    4300072: Cone.035
+    4300074: Cone.036
+    4300076: Cone.037
+    4300078: Cone.038
+    4300080: Cone.039
+    4300082: Cone.040
+    4300084: Cone.041
+    4300086: Cone.042
+    4300088: Cone.043
+    4300090: Cone.044
+    4300092: Cone.045
+    4300094: Cone.046
+    4300096: Cone.047
+    4300098: Cone.048
+    4300100: Cone.049
+    4300102: Cone.050
+    4300104: Cone.051
+    4300106: Cone.052
+    4300108: Cone.053
+    4300110: Cone.054
+    4300112: Cone.055
+    4300114: Cone.056
+    4300116: Cone.057
+    4300118: Cone.058
+    4300120: Cone.059
+    4300122: Cone.060
+    4300124: Cone.061
+    4300126: Cone.062
+    4300128: Cone.063
+    4300130: Cone.064
+    4300132: Cone.065
+    4300134: Cone.066
+    4300136: Cone.067
+    4300138: Cone.068
+    4300140: Cone.069
+    4300142: Cone.070
+    4300144: Cone.071
+    4300146: Cone.072
+    4300148: Cone.073
+    4300150: Cone.074
+    4300152: Cone.075
+    4300154: Cone.076
+    4300156: Cone.077
+    4300158: Cone.078
+    4300160: Cone.079
+    4300162: Cone.080
+    4300164: Cone.081
+    4300166: Cone.082
+    4300168: Cone.083
+    4300170: Cone.084
+    4300172: Cone.085
+    4300174: Cone.086
+    4300176: Cone.087
+    4300178: Cone.088
+    4300180: Cone.089
+    4300182: Cone.090
+    4300184: Cone.091
+    4300186: Cone.092
+    4300188: Cone.093
+    4300190: Cone.094
+    4300192: Cone.095
+    4300194: Cone.096
+    4300196: Cone.097
+    4300198: Cone.098
+    4300200: Cone.099
+    4300202: Cone.100
+    4300204: Cone.101
+    4300206: Cone.102
+    4300208: Cone.103
+    4300210: Cone.104
+    4300212: Cone.105
+    4300214: Cone.106
+    4300216: Cone.107
+    4300218: Cone.108
+    4300220: Cone.109
+    4300222: Cone.110
+    4300224: Cone.111
+    4300226: Cone.112
+    4300228: Cone.113
+    4300230: Cone.114
+    4300232: Cone.115
+    4300234: Cone.116
+    4300236: Cone.117
+    4300238: Cone.118
+    4300240: Cone.119
+    4300242: Cone.120
+    4300244: Cone.121
+    4300246: Cone.122
+    4300248: Cone.123
+    4300250: Cone.124
+    4300252: Cone.125
+    4300254: Cone.126
+    4300256: Cone.127
+    4300258: Cone.128
+    4300260: Cone.129
+    4300262: Cone.130
+    4300264: Cone.131
+    4300266: Cone.132
+    4300268: Cone.133
+    4300270: Cone.134
+    4300272: Cone.135
+    4300274: Cone.136
+    4300276: Cone.137
+    4300278: Cone.138
+    4300280: Cone.140
+    4300282: Cone.141
+    4300284: Cone.142
+    4300286: Cone.143
+    4300288: Cone.144
+    4300290: Cone.145
+    4300292: Cone.146
+    4300294: Cone.147
+    4300296: Cone.148
+    4300298: Cone.149
+    4300300: Cone.150
+    4300302: Cone.151
+    4300304: Cone.152
+    4300306: Cone.153
+    4300308: Cone.154
+    4300310: Cone.155
+    4300312: Cone.156
+    4300314: Cone.157
+    4300316: Cone.158
+    4300318: Cone.159
+    4300320: Cone.160
+    4300322: Cone.161
+    7400000: Scene
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cone.000
+        weight: 1
+      - path: Cone.001
+        weight: 1
+      - path: Cone.002
+        weight: 1
+      - path: Cone.003
+        weight: 1
+      - path: Cone.004
+        weight: 1
+      - path: Cone.005
+        weight: 1
+      - path: Cone.006
+        weight: 1
+      - path: Cone.007
+        weight: 1
+      - path: Cone.008
+        weight: 1
+      - path: Cone.009
+        weight: 1
+      - path: Cone.010
+        weight: 1
+      - path: Cone.011
+        weight: 1
+      - path: Cone.012
+        weight: 1
+      - path: Cone.013
+        weight: 1
+      - path: Cone.014
+        weight: 1
+      - path: Cone.015
+        weight: 1
+      - path: Cone.016
+        weight: 1
+      - path: Cone.017
+        weight: 1
+      - path: Cone.018
+        weight: 1
+      - path: Cone.019
+        weight: 1
+      - path: Cone.020
+        weight: 1
+      - path: Cone.021
+        weight: 1
+      - path: Cone.022
+        weight: 1
+      - path: Cone.023
+        weight: 1
+      - path: Cone.024
+        weight: 1
+      - path: Cone.025
+        weight: 1
+      - path: Cone.026
+        weight: 1
+      - path: Cone.027
+        weight: 1
+      - path: Cone.028
+        weight: 1
+      - path: Cone.029
+        weight: 1
+      - path: Cone.030
+        weight: 1
+      - path: Cone.031
+        weight: 1
+      - path: Cone.032
+        weight: 1
+      - path: Cone.033
+        weight: 1
+      - path: Cone.034
+        weight: 1
+      - path: Cone.035
+        weight: 1
+      - path: Cone.036
+        weight: 1
+      - path: Cone.037
+        weight: 1
+      - path: Cone.038
+        weight: 1
+      - path: Cone.039
+        weight: 1
+      - path: Cone.040
+        weight: 1
+      - path: Cone.041
+        weight: 1
+      - path: Cone.042
+        weight: 1
+      - path: Cone.043
+        weight: 1
+      - path: Cone.044
+        weight: 1
+      - path: Cone.045
+        weight: 1
+      - path: Cone.046
+        weight: 1
+      - path: Cone.047
+        weight: 1
+      - path: Cone.048
+        weight: 1
+      - path: Cone.049
+        weight: 1
+      - path: Cone.050
+        weight: 1
+      - path: Cone.051
+        weight: 1
+      - path: Cone.052
+        weight: 1
+      - path: Cone.053
+        weight: 1
+      - path: Cone.054
+        weight: 1
+      - path: Cone.055
+        weight: 1
+      - path: Cone.056
+        weight: 1
+      - path: Cone.057
+        weight: 1
+      - path: Cone.058
+        weight: 1
+      - path: Cone.059
+        weight: 1
+      - path: Cone.060
+        weight: 1
+      - path: Cone.061
+        weight: 1
+      - path: Cone.062
+        weight: 1
+      - path: Cone.063
+        weight: 1
+      - path: Cone.064
+        weight: 1
+      - path: Cone.065
+        weight: 1
+      - path: Cone.066
+        weight: 1
+      - path: Cone.067
+        weight: 1
+      - path: Cone.068
+        weight: 1
+      - path: Cone.069
+        weight: 1
+      - path: Cone.070
+        weight: 1
+      - path: Cone.071
+        weight: 1
+      - path: Cone.072
+        weight: 1
+      - path: Cone.073
+        weight: 1
+      - path: Cone.074
+        weight: 1
+      - path: Cone.075
+        weight: 1
+      - path: Cone.076
+        weight: 1
+      - path: Cone.077
+        weight: 1
+      - path: Cone.078
+        weight: 1
+      - path: Cone.079
+        weight: 1
+      - path: Cone.080
+        weight: 1
+      - path: Cone.081
+        weight: 1
+      - path: Cone.082
+        weight: 1
+      - path: Cone.083
+        weight: 1
+      - path: Cone.084
+        weight: 1
+      - path: Cone.085
+        weight: 1
+      - path: Cone.086
+        weight: 1
+      - path: Cone.087
+        weight: 1
+      - path: Cone.088
+        weight: 1
+      - path: Cone.089
+        weight: 1
+      - path: Cone.090
+        weight: 1
+      - path: Cone.091
+        weight: 1
+      - path: Cone.092
+        weight: 1
+      - path: Cone.093
+        weight: 1
+      - path: Cone.094
+        weight: 1
+      - path: Cone.095
+        weight: 1
+      - path: Cone.096
+        weight: 1
+      - path: Cone.097
+        weight: 1
+      - path: Cone.098
+        weight: 1
+      - path: Cone.099
+        weight: 1
+      - path: Cone.100
+        weight: 1
+      - path: Cone.101
+        weight: 1
+      - path: Cone.102
+        weight: 1
+      - path: Cone.103
+        weight: 1
+      - path: Cone.104
+        weight: 1
+      - path: Cone.105
+        weight: 1
+      - path: Cone.106
+        weight: 1
+      - path: Cone.107
+        weight: 1
+      - path: Cone.108
+        weight: 1
+      - path: Cone.109
+        weight: 1
+      - path: Cone.110
+        weight: 1
+      - path: Cone.111
+        weight: 1
+      - path: Cone.112
+        weight: 1
+      - path: Cone.113
+        weight: 1
+      - path: Cone.114
+        weight: 1
+      - path: Cone.115
+        weight: 1
+      - path: Cone.116
+        weight: 1
+      - path: Cone.117
+        weight: 1
+      - path: Cone.118
+        weight: 1
+      - path: Cone.119
+        weight: 1
+      - path: Cone.120
+        weight: 1
+      - path: Cone.121
+        weight: 1
+      - path: Cone.122
+        weight: 1
+      - path: Cone.123
+        weight: 1
+      - path: Cone.124
+        weight: 1
+      - path: Cone.125
+        weight: 1
+      - path: Cone.126
+        weight: 1
+      - path: Cone.127
+        weight: 1
+      - path: Cone.128
+        weight: 1
+      - path: Cone.129
+        weight: 1
+      - path: Cone.130
+        weight: 1
+      - path: Cone.131
+        weight: 1
+      - path: Cone.132
+        weight: 1
+      - path: Cone.133
+        weight: 1
+      - path: Cone.134
+        weight: 1
+      - path: Cone.135
+        weight: 1
+      - path: Cone.136
+        weight: 1
+      - path: Cone.137
+        weight: 1
+      - path: Cone.138
+        weight: 1
+      - path: Cone.140
+        weight: 1
+      - path: Cone.141
+        weight: 1
+      - path: Cone.142
+        weight: 1
+      - path: Cone.143
+        weight: 1
+      - path: Cone.144
+        weight: 1
+      - path: Cone.145
+        weight: 1
+      - path: Cone.146
+        weight: 1
+      - path: Cone.147
+        weight: 1
+      - path: Cone.148
+        weight: 1
+      - path: Cone.149
+        weight: 1
+      - path: Cone.150
+        weight: 1
+      - path: Cone.151
+        weight: 1
+      - path: Cone.152
+        weight: 1
+      - path: Cone.153
+        weight: 1
+      - path: Cone.154
+        weight: 1
+      - path: Cone.155
+        weight: 1
+      - path: Cone.156
+        weight: 1
+      - path: Cone.157
+        weight: 1
+      - path: Cone.158
+        weight: 1
+      - path: Cone.159
+        weight: 1
+      - path: Cone.160
+        weight: 1
+      - path: Cone.161
+        weight: 1
+      - path: sphereBase
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

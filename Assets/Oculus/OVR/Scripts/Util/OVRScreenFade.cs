@@ -21,6 +21,7 @@ limitations under the License.
 
 using UnityEngine;
 using System.Collections; // required for Coroutines
+using SymphonyOfDawn;
 
 /// <summary>
 /// Fades the screen from black after a new scene is loaded.
@@ -30,7 +31,9 @@ public class OVRScreenFade : MonoBehaviour
 	/// <summary>
 	/// How long it takes to fade.
 	/// </summary>
-	public float fadeTime = 2.0f;
+	private float fadeTime = 2.0f;
+    public float fadeTimeStart = 2.0f;
+    public float fadeTimeTransition = 20.0f;
 
 	/// <summary>
 	/// The initial screen color.
@@ -55,14 +58,63 @@ public class OVRScreenFade : MonoBehaviour
 	/// </summary>
 	void OnEnable()
 	{
-		StartCoroutine(FadeIn());
+        fadeTime = fadeTimeStart;
+        StartCoroutine(FadeIn());
+        EventManager.StartListening("MoonCrashed", CallFade);
 	}
 
-	/// <summary>
-	/// Starts a fade in when a new level is loaded
-	/// </summary>
+    private void OnDisable()
+    {
+        EventManager.StopListening("MoonCrashed", CallFade);
+    }
+
+    private void CallFade()
+    {
+        StartCoroutine(FadeInOut());
+    }
+
+    public IEnumerator FadeInOut()
+    {
+       fadeTime = fadeTimeTransition;
+        float elapsedTime = 0.0f;
+        fadeMaterial.color = fadeColor;
+        Color color = fadeColor;
+        isFading = true;
+        while (elapsedTime < fadeTime)
+        {
+            yield return fadeInstruction;
+            elapsedTime += Time.deltaTime;
+            color.a = Mathf.Clamp01(elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+        }
+       
+        isFading = false;
+
+        EventManager.TriggerEvent("Reset");
+
+        elapsedTime = 0.0f;
+        fadeTime = 10f;
+        isFading = true;
+
+        while (elapsedTime < fadeTime)
+        {
+            yield return fadeInstruction;
+            elapsedTime += Time.deltaTime;
+            color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+        }
+
+        isFading = false;
+
+        yield return null;
+
+    }
+
+    /// <summary>
+    /// Starts a fade in when a new level is loaded
+    /// </summary>
 #if UNITY_5_4_OR_NEWER
-	void OnLevelFinishedLoading(int level)
+    void OnLevelFinishedLoading(int level)
 #else
 	void OnLevelWasLoaded(int level)
 #endif
@@ -92,7 +144,7 @@ public class OVRScreenFade : MonoBehaviour
 		isFading = true;
 		while (elapsedTime < fadeTime)
 		{
-			yield return fadeInstruction;
+			yield return null;
 			elapsedTime += Time.deltaTime;
 			color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
 			fadeMaterial.color = color;
@@ -100,10 +152,26 @@ public class OVRScreenFade : MonoBehaviour
 		isFading = false;
 	}
 
-	/// <summary>
-	/// Renders the fade overlay when attached to a camera object
-	/// </summary>
-	void OnPostRender()
+    IEnumerator FadeOut()
+    {
+        float elapsedTime = 0.0f;
+        fadeMaterial.color = fadeColor;
+        Color color = fadeColor;
+        isFading = true;
+        while (elapsedTime < fadeTime)
+        {
+            yield return null;
+            elapsedTime += Time.deltaTime;
+            color.a =  Mathf.Clamp01(elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+        }
+        isFading = false;
+    }
+
+    /// <summary>
+    /// Renders the fade overlay when attached to a camera object
+    /// </summary>
+    void OnPostRender()
 	{
 		if (isFading)
 		{

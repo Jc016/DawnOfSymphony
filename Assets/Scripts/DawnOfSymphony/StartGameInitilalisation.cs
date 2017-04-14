@@ -5,16 +5,17 @@ using SymphonyOfDawn;
 
 public class StartGameInitilalisation : MonoBehaviour {
 
-    ParticleSystem clouds;
+    public ParticleSystem clouds;
+    public GameObject explosion;
+    public Color[] CloudsColors;
+    public Material[] skyboxes;
+
+    private int seasonIndex = -1;
 
 	// Use this for initialization
 	void Start () {
-        /*  RenderSettings.skybox.SetColor("_Tint", new Color(56.0f / 255.0f, 32.0f / 255.0f, 14.0f / 255f, 128.0f / 255.0f));
-          ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
-          emitParams.startColor = Color.magenta;
-          clouds.Emit(emitParams, 10);*/
 
-        GameDataState.Init();
+        Init();
         for (int i = 0; i < 4; i++)
         {
             GameDataState.LastSeedSpawnTaken = i;
@@ -23,25 +24,40 @@ public class StartGameInitilalisation : MonoBehaviour {
         }
 	}
 
+    private void Init()
+    {
+        GameDataState.Init();
+        seasonIndex = (seasonIndex + 1 ) % 4;
+        var main = clouds.main;
+        Debug.Log(seasonIndex);
+        main.startColor = CloudsColors[seasonIndex];
+        explosion.SetActive(false);
+    }
+
     private void OnEnable()
     {
-        EventManager.StartListening("MoonCrashed", OnDestroyAllMusicalObjects);
+        EventManager.StartListening("Reset", OnReset);
     }
 
     private void OnDisable()
     {
-        EventManager.StopListening("MoonCrashed", OnDestroyAllMusicalObjects);
+        EventManager.StopListening("Reset", OnReset);
     }
+
+    public void OnReset()
+    {
+        OnDestroyAllMusicalObjects();
+        Init();
+        
+    }
+
+
 
     public void OnDestroyAllMusicalObjects()
     {
         GameDataState.DeleteAllMusicalObjects();
     }
 
-    public void Reset()
-    {
-       EventManager.TriggerEvent("Reset");
-    }
 
     // Update is called once per frame
     void Update () {

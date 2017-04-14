@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using SymphonyOfDawn;
 
 [ExecuteInEditMode]
 public class ScannerEffectDemo : MonoBehaviour
@@ -22,9 +23,8 @@ public class ScannerEffectDemo : MonoBehaviour
 
     void Start()
 	{
-		
-        InvokeRepeating("pulseScanner", 6f, 6f);
 
+        StartScanner();
     }
 
     public void AddScannable(Scannable s)
@@ -87,9 +87,28 @@ public class ScannerEffectDemo : MonoBehaviour
 	{
 		_camera = GetComponent<Camera>();
 		_camera.depthTextureMode = DepthTextureMode.Depth;
-	}
+        EventManager.StartListening("MoonCrashing", StopScanner);
+        EventManager.StartListening("Reset", StartScanner);
 
-	[ImageEffectOpaque]
+    }
+
+    void StartScanner()
+    {
+        InvokeRepeating("pulseScanner", 6f, 6f);
+    }
+
+    void StopScanner()
+    {
+        CancelInvoke("pulseScanner");
+    }
+
+    private void OnDisable()
+    {
+        EventManager.StopListening("MoonCrashing", StopScanner);
+        EventManager.StopListening("Reset", StartScanner);
+    }
+
+    [ImageEffectOpaque]
 	void OnRenderImage(RenderTexture src, RenderTexture dst)
 	{
 		EffectMaterial.SetVector("_WorldSpaceScannerPos", Vector3.zero);

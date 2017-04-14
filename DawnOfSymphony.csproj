@@ -84,14 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeByDistance.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeOnKeyPress.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeOnTrigger.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Demo\ShakeDemo.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakeInstance.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakePresets.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShaker.cs" />
-    <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
+    <Compile Include="Assets\EmitSmokeSeedController.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRBoundary.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRCameraRig.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRCommon.cs" />
@@ -125,6 +118,7 @@
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRWaitCursor.cs" />
+    <Compile Include="Assets\OnAnimationPulseFinished.cs" />
     <Compile Include="Assets\OvrAvatar\Samples\GripPoses\Scripts\PoseEditHelper.cs" />
     <Compile Include="Assets\OvrAvatar\Samples\RemoteLoopback\Scripts\RemoteLoopbackManager.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatar.cs" />
