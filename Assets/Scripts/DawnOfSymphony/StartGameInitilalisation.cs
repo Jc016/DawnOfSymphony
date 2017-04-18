@@ -9,11 +9,24 @@ public class StartGameInitilalisation : MonoBehaviour {
     public GameObject explosion;
     public Color[] CloudsColors;
     public Material[] skyboxes;
+    public GameObject[] FieldElements;
+    public Material[] FieldMaterials;
+    public ParticleSystem DustEffect;
+    public GameObject[] DustSystems;
+    public Color[] ScannerColors;
+    public Color[] ScannerEdgeColors;
+    private bool isEarthQuakeRunning = false;
 
-    private int seasonIndex = -1;
+    [SerializeField]
+    public OculusHapticsController leftControllerHaptics;
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField]
+    public OculusHapticsController rightControllerHaptics;
+
+    public int seasonIndex = -1;
+
+    // Use this for initialization
+    void Start() {
 
         Init();
         for (int i = 0; i < 4; i++)
@@ -22,33 +35,98 @@ public class StartGameInitilalisation : MonoBehaviour {
             EventManager.TriggerEvent("SeedTaken");
 
         }
-	}
+    }
 
     private void Init()
     {
         GameDataState.Init();
-        seasonIndex = (seasonIndex + 1 ) % 4;
-        var main = clouds.main;
-        Debug.Log(seasonIndex);
-        main.startColor = CloudsColors[seasonIndex];
+        ControllerStopBigVibration();
+        seasonIndex = (seasonIndex + 1) % 3;
+        GameDataState.currentScannerColor = ScannerColors[seasonIndex];
+        GameDataState.currentScannerEdgeColor = ScannerEdgeColors[seasonIndex];
+        UpdateClouds();
+        UpdateDust();
+        UpdateFieldMaterials();
+        RenderSettings.skybox = skyboxes[seasonIndex];
+
+
+
         explosion.SetActive(false);
     }
 
     private void OnEnable()
     {
         EventManager.StartListening("Reset", OnReset);
+        EventManager.StartListening("StartCrash", ControllerStartBigVibration);
+    }
+
+    private void UpdateClouds()
+    {
+        var main = clouds.main;
+        main.startColor = CloudsColors[seasonIndex];
+    }
+
+    private void UpdateDust()
+    {
+        for (int i = 0; i < DustSystems.Length; i++)
+        {
+            DustSystems[i].SetActive(false);
+        }
+
+        DustSystems[seasonIndex].SetActive(true);
     }
 
     private void OnDisable()
     {
         EventManager.StopListening("Reset", OnReset);
+        EventManager.StopListening("StartCrash", ControllerStartBigVibration);
+    }
+
+    private void ControllerStartBigVibration()
+    {
+        StartCoroutine("VibrateEarthquake");
+        isEarthQuakeRunning = true;
+    }
+
+    private void ControllerStopBigVibration()
+    {
+        if (isEarthQuakeRunning)
+        {
+            StopCoroutine("VibrateEarthquake");
+            isEarthQuakeRunning = false;
+            leftControllerHaptics.Clear();
+            rightControllerHaptics.Clear();
+            rightControllerHaptics.Vibrate(VibrationForce.Hard);
+        }
+        
     }
 
     public void OnReset()
     {
         OnDestroyAllMusicalObjects();
         Init();
-        
+
+    }
+
+    public Material[] GenerateFieldMaterialArray()
+    {
+        Material[] materials = new Material[8];
+
+        for (int i = 0; i < materials.Length; i++)
+        {
+            materials[i] = FieldMaterials[seasonIndex];
+        }
+
+        return materials;
+
+    }
+
+    public void UpdateFieldMaterials()
+    {
+        for (int i = 0; i < FieldElements.Length; i++)
+        {
+            FieldElements[i].GetComponent<Renderer>().materials = GenerateFieldMaterialArray();
+        }
     }
 
 
@@ -59,8 +137,16 @@ public class StartGameInitilalisation : MonoBehaviour {
     }
 
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
+
+    IEnumerator VibrateEarthquake()
+    {
+       
+        while (true)
+        {
+            leftControllerHaptics.Vibrate(VibrationForce.Hard);
+            rightControllerHaptics.Vibrate(VibrationForce.Hard);
+            yield return new WaitForSeconds(leftControllerHaptics.earthQuake.length);
+        }
+        yield return null;
+    }
 }

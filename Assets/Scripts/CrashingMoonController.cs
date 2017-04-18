@@ -8,6 +8,8 @@ public class CrashingMoonController : MonoBehaviour {
 
     public GameObject explosion;
     private Vector3 originPosition;
+    private bool HasCrashed = false;
+
 
 
     private void Start()
@@ -30,16 +32,19 @@ public class CrashingMoonController : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        EventManager.TriggerEvent("MoonCrashed");
-        explosion.SetActive(true);
+            EventManager.TriggerEvent("MoonCrashed");
+            Debug.Log("Moon has crashed");
+            explosion.SetActive(true); 
     }
 
     private void OnReset()
     {
         GetComponent<Rigidbody>().useGravity = false;
         GetComponent<Rigidbody>().isKinematic = true;
+        GetComponent<Rigidbody>().WakeUp();
         transform.Find("CrashingFire").gameObject.SetActive(false);
-        transform.position = new Vector3(originPosition.x, 17, originPosition.z);
+        transform.position = new Vector3(originPosition.x, 1400, originPosition.z);
+
     }
 
     private void Update()
@@ -55,6 +60,7 @@ public class CrashingMoonController : MonoBehaviour {
         EventManager.TriggerEvent("MoonCrashing");
         GetComponent<Rigidbody>().useGravity = true;
         GetComponent<Rigidbody>().isKinematic = false;
+        GetComponent<Rigidbody>().WakeUp();
         transform.Find("CrashingFire").gameObject.SetActive(true);
       
 

@@ -84,7 +84,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EmitSmokeSeedController.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRBoundary.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRCameraRig.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\OVRCommon.cs" />
@@ -118,7 +117,6 @@
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\Oculus\OVR\Scripts\Util\OVRWaitCursor.cs" />
-    <Compile Include="Assets\OnAnimationPulseFinished.cs" />
     <Compile Include="Assets\OvrAvatar\Samples\GripPoses\Scripts\PoseEditHelper.cs" />
     <Compile Include="Assets\OvrAvatar\Samples\RemoteLoopback\Scripts\RemoteLoopbackManager.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatar.cs" />
@@ -155,9 +153,13 @@
     <Compile Include="Assets\Scripts\DawnOfSymphony\MusicalSeed.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\ObjectRandomRotation.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\ObjectRandomScaler.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\OculusHapticsController.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\SeedController.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\SpawnController.cs" />
     <Compile Include="Assets\Scripts\DawnOfSymphony\StartGameInitilalisation.cs" />
+    <Compile Include="Assets\Scripts\DawnOfSymphony\VibrationForce.cs" />
+    <Compile Include="Assets\Scripts\EmitSmokeSeedController.cs" />
+    <Compile Include="Assets\Scripts\OnAnimationPulseFinished.cs" />
     <Compile Include="Assets\Scripts\Utilities\Hand.cs" />
     <Compile Include="Assets\_OCASM\Image Effects\SSMS\SSMS.cs" />
     <Compile Include="Assets\_OCASM\Image Effects\SSMS\SSMSGlobalFog.cs" />

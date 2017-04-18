@@ -9,6 +9,8 @@ namespace SymphonyOfDawn
         private static List  <MusicalObject> m_musicalObjectList  = new List<MusicalObject>();
         public static int LastSeedSpawnTaken { get; set; }
         public static ScannerEffectDemo scannerEffect;
+        public static Color currentScannerColor { get; set; }
+        public static Color currentScannerEdgeColor { get; set; }
 
         public static void Init()
         {
@@ -22,13 +24,12 @@ namespace SymphonyOfDawn
 
         public static void AddMusicalObject(string type, Vector3 position)
         {
-            Debug.Log("Spawning: " + type + " at " + position.ToString());
             MusicalObject mo = new MusicalObject();
             mo.Instanciate(type, position);
             m_musicalObjectList.Add(mo);
             scannerEffect.AddScannable(mo.linkedGameObject.GetComponent<Scannable>());
 
-            if(m_musicalObjectList.Count >=8)
+            if(m_musicalObjectList.Count >=14)
             {
                 EventManager.TriggerEvent("StartCrash");
             }
@@ -46,6 +47,8 @@ namespace SymphonyOfDawn
 
             scannerEffect.ClearScannables();
         }
+
+        
 
   
     }

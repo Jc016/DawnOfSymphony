@@ -35,13 +35,15 @@ public class OVRScreenFade : MonoBehaviour
     public float fadeTimeStart = 2.0f;
     public float fadeTimeTransition = 20.0f;
 
-	/// <summary>
-	/// The initial screen color.
-	/// </summary>
-	public Color fadeColor = new Color(0.01f, 0.01f, 0.01f, 1.0f);
+
+    /// <summary>
+    /// The initial screen color.
+    /// </summary>
+    public Color fadeColor = new Color(0.01f, 0.01f, 0.01f, 1.0f);
 
 	private Material fadeMaterial = null;
 	private bool isFading = false;
+    public bool isMaster = false;
 	private YieldInstruction fadeInstruction = new WaitForEndOfFrame();
 
 	/// <summary>
@@ -70,42 +72,48 @@ public class OVRScreenFade : MonoBehaviour
 
     private void CallFade()
     {
-        StartCoroutine(FadeInOut());
+        Debug.Log("Calling fade");
+        if (!isFading)
+            StartCoroutine("FadeInOut");
     }
 
     public IEnumerator FadeInOut()
     {
+        isFading = true;
        fadeTime = fadeTimeTransition;
         float elapsedTime = 0.0f;
         fadeMaterial.color = fadeColor;
         Color color = fadeColor;
-        isFading = true;
         while (elapsedTime < fadeTime)
         {
-            yield return fadeInstruction;
+            yield return null;
             elapsedTime += Time.deltaTime;
             color.a = Mathf.Clamp01(elapsedTime / fadeTime);
             fadeMaterial.color = color;
         }
-       
-        isFading = false;
 
-        EventManager.TriggerEvent("Reset");
+
+        if (isMaster)
+        {
+            EventManager.TriggerEvent("Reset");
+        }
+
+       
 
         elapsedTime = 0.0f;
         fadeTime = 10f;
-        isFading = true;
+
+
+
 
         while (elapsedTime < fadeTime)
         {
-            yield return fadeInstruction;
+            yield return null;
             elapsedTime += Time.deltaTime;
             color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
             fadeMaterial.color = color;
         }
-
         isFading = false;
-
         yield return null;
 
     }

@@ -79,6 +79,7 @@ public class ScannerEffectDemo : MonoBehaviour
             _scanning = true;
             ScanDistance = 0;
             speedWave = Random.Range(minSpeedWave, maxSpeedWave);
+            Debug.Log("Speed Wave" +speedWave);
         }
     }
 	// End Demo Code
@@ -94,6 +95,11 @@ public class ScannerEffectDemo : MonoBehaviour
 
     void StartScanner()
     {
+        EffectMaterial.SetColor("_MidColor", GameDataState.currentScannerColor);
+        EffectMaterial.SetColor("_TrailColor", GameDataState.currentScannerColor);
+        EffectMaterial.SetColor("_LeadColor", GameDataState.currentScannerColor);
+        EffectMaterial.SetColor("_HBarColor", GameDataState.currentScannerColor);
+        EffectMaterial.SetColor("_LeadingEdgeSharpness", GameDataState.currentScannerEdgeColor);
         InvokeRepeating("pulseScanner", 6f, 6f);
     }
 

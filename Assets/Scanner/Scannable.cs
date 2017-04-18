@@ -14,11 +14,9 @@ public class Scannable : MonoBehaviour
 
     public void Ping()
 	{
-        if (GetComponent<GrowingAnimator>().isGrown && !audio.isPlaying)
-        {
-            
+        if (!audio.isPlaying)
+        {          
             audio.Play();
-            Debug.Log("Playing: " + audio.clip.name);
         }
 
     }
