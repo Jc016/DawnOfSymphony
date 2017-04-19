@@ -96,7 +96,6 @@ public class StartGameInitilalisation : MonoBehaviour {
             isEarthQuakeRunning = false;
             leftControllerHaptics.Clear();
             rightControllerHaptics.Clear();
-            rightControllerHaptics.Vibrate(VibrationForce.Hard);
         }
         
     }

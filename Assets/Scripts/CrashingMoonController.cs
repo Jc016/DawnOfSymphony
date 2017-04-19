@@ -9,6 +9,7 @@ public class CrashingMoonController : MonoBehaviour {
     public GameObject explosion;
     private Vector3 originPosition;
     private bool HasCrashed = false;
+    public AudioSource[] CrashSounds;
 
 
 
@@ -44,6 +45,7 @@ public class CrashingMoonController : MonoBehaviour {
         GetComponent<Rigidbody>().WakeUp();
         transform.Find("CrashingFire").gameObject.SetActive(false);
         transform.position = new Vector3(originPosition.x, 1400, originPosition.z);
+        StartCoroutine("fadeOutSounds");
 
     }
 
@@ -62,7 +64,37 @@ public class CrashingMoonController : MonoBehaviour {
         GetComponent<Rigidbody>().isKinematic = false;
         GetComponent<Rigidbody>().WakeUp();
         transform.Find("CrashingFire").gameObject.SetActive(true);
+        StartCoroutine("fadeInSounds");
       
 
     }
+
+    public IEnumerator fadeInSounds()
+    {
+        while(CrashSounds[0].volume < 1)
+        {
+            for (int i = 0; i < CrashSounds.Length; i++)
+            {
+                CrashSounds[i].volume += 1 * Time.deltaTime;
+            }
+
+            yield return null;
+        }
+        yield return null;
+
+    }
+
+    public IEnumerator fadeOutSounds()
+    {
+        while (CrashSounds[0].volume > 0)
+        {
+            for (int i = 0; i < CrashSounds.Length; i++)
+            {
+                CrashSounds[i].volume -= 1 * Time.deltaTime;
+                yield return null;
+            }
+        }
+        yield return null;
+    }
 }
+
