@@ -11,6 +11,7 @@ namespace SymphonyOfDawn
         public static ScannerEffectDemo scannerEffect;
         public static Color currentScannerColor { get; set; }
         public static Color currentScannerEdgeColor { get; set; }
+        public static GameObject takenSeed;
 
         public static void Init()
         {
@@ -29,7 +30,7 @@ namespace SymphonyOfDawn
             m_musicalObjectList.Add(mo);
             scannerEffect.AddScannable(mo.linkedGameObject.GetComponent<Scannable>());
 
-            if(m_musicalObjectList.Count >=20)
+            if(m_musicalObjectList.Count >=16)
             {
                 EventManager.TriggerEvent("StartCrash");
             }

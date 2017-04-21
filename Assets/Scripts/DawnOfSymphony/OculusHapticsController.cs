@@ -53,6 +53,16 @@ public class OculusHapticsController : MonoBehaviour
         }
     }
 
+    public void Vibrate(AudioClip clip)
+    {
+        var channel = OVRHaptics.RightChannel;
+        if (controllerMask == OVRInput.Controller.LTouch)
+            channel = OVRHaptics.LeftChannel;
+
+        channel.Preempt(new OVRHapticsClip(clip));
+
+    }
+
 
     public void Clear()
     {

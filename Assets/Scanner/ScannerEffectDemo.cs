@@ -79,7 +79,7 @@ public class ScannerEffectDemo : MonoBehaviour
             _scanning = true;
             ScanDistance = 0;
             speedWave = Random.Range(minSpeedWave, maxSpeedWave);
-            Debug.Log("Speed Wave" +speedWave);
+            EventManager.TriggerEvent("SeedPulse");
         }
     }
 	// End Demo Code

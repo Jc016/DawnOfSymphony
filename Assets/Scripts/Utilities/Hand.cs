@@ -67,6 +67,8 @@ public class Hand : MonoBehaviour {
                     SeedController seed = mHeldObject.GetComponent<SeedController>();
                     mHeldObject.GetComponent<BoxCollider>().enabled = false;
                     GameDataState.LastSeedSpawnTaken = seed.SourceSpawnID;
+                    GameDataState.takenSeed = mHeldObject.gameObject;
+                    GameDataState.takenSeed.GetComponent<AudioSource>().Play();
                     if (seed.untouched)
                     {
                         EventManager.TriggerEvent("SeedTaken");
@@ -93,6 +95,7 @@ public class Hand : MonoBehaviour {
         mHeldObject.angularVelocity = OVRInput.GetLocalControllerAngularVelocity(Controller) * Mathf.Deg2Rad;
         mHeldObject.maxAngularVelocity = mHeldObject.angularVelocity.magnitude;
         mHeldObject.GetComponent<BoxCollider>().enabled = true;
+        GameDataState.takenSeed = null;
 
     }
 

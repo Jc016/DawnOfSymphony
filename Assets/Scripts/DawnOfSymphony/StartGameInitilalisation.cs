@@ -58,7 +58,9 @@ public class StartGameInitilalisation : MonoBehaviour {
     {
         EventManager.StartListening("Reset", OnReset);
         EventManager.StartListening("StartCrash", ControllerStartBigVibration);
+        EventManager.StartListening("SeedPulse", PulseSeed);
     }
+    
 
     private void UpdateClouds()
     {
@@ -80,6 +82,7 @@ public class StartGameInitilalisation : MonoBehaviour {
     {
         EventManager.StopListening("Reset", OnReset);
         EventManager.StopListening("StartCrash", ControllerStartBigVibration);
+        EventManager.StopListening("SeedPulse", PulseSeed);
     }
 
     private void ControllerStartBigVibration()
@@ -97,7 +100,7 @@ public class StartGameInitilalisation : MonoBehaviour {
             leftControllerHaptics.Clear();
             rightControllerHaptics.Clear();
         }
-        
+
     }
 
     public void OnReset()
@@ -139,7 +142,7 @@ public class StartGameInitilalisation : MonoBehaviour {
 
     IEnumerator VibrateEarthquake()
     {
-       
+
         while (true)
         {
             leftControllerHaptics.Vibrate(VibrationForce.Hard);
@@ -147,5 +150,15 @@ public class StartGameInitilalisation : MonoBehaviour {
             yield return new WaitForSeconds(leftControllerHaptics.earthQuake.length);
         }
         yield return null;
+    }
+
+    void PulseSeed()
+    {
+        if(GameDataState.takenSeed != null)
+        {
+            AudioSource audioSource = GameDataState.takenSeed.GetComponent<AudioSource>();
+            leftControllerHaptics.Vibrate(audioSource.clip);
+            rightControllerHaptics.Vibrate(audioSource.clip);
+        }
     }
 }
